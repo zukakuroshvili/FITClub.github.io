@@ -1,0 +1,304 @@
+* {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  gap: 75px;
+  width: 100%;
+  height: 73.7px;
+  background-color: black;
+  text-align: center;
+  padding: 0 117.5px;
+}
+.navbar h2 {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+.navbar h3 {
+  font-size: 16px;
+  color: #F57325;
+  margin: 0;
+}
+.navbar h1 {
+  color: white;
+  font-size: 40px;
+  margin-right: auto;
+}
+.navbar h1 b {
+  color: #F57325;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 3000px) {
+  .navbar :nth-child(4) {
+    display: none;
+  }
+}
+@media screen and (max-width: 675px) {
+  .navbar {
+    padding: 0;
+    gap: 10px;
+  }
+  .navbar h2 {
+    display: none;
+  }
+  .navbar h3 {
+    display: none;
+  }
+  .navbar :nth-child(4) {
+    display: block;
+  }
+}
+.cant {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/685530/pexels-photo-685530.jpeg?cs=srgb&dl=pexels-victor-freitas-685530.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 706px;
+  text-align: center;
+}
+.cant h1 {
+  padding-top: 227px;
+  font-size: 60px;
+  color: white;
+}
+.cant h1 b {
+  color: #F57325;
+}
+.cant h2 {
+  color: white;
+  font-size: 60px;
+}
+.cant h2 b {
+  color: #333DF0;
+}
+
+@media screen and (max-width: 490px) {
+  .cant h1 {
+    font-size: 40px;
+  }
+  .cant h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .cant h1 {
+    font-size: 30px;
+  }
+  .cant h2 {
+    font-size: 30px;
+  }
+}
+.wheare {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  gap: 143px;
+  justify-content: center;
+}
+.wheare h1 {
+  font-size: 60px;
+  color: black;
+}
+.wheare h1 b {
+  color: #F57325;
+}
+.wheare h3 {
+  width: 2px;
+  background-color: #4D55F2;
+  height: 57px;
+  margin: 0;
+}
+.wheare h2 {
+  font-size: 16px;
+  color: black;
+  width: 691px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.bru {
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1210px) {
+  .wheare h2 {
+    max-width: 500px;
+  }
+  .wheare h3 {
+    width: 2px;
+    background-color: #4D55F2;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .wheare h2 {
+    max-width: 400px;
+  }
+  .wheare h3 {
+    width: 2px;
+    background-color: #4D55F2;
+    height: 95px;
+  }
+}
+@media screen and (max-width: 935px) {
+  .wheare {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .wheare h3 {
+    width: 2px;
+    background-color: #4D55F2;
+    height: 60px;
+  }
+  .wheare h2 {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 625px) {
+  h3 {
+    display: none;
+  }
+}
+.img {
+  margin-top: 106px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img img {
+  max-width: 100%;
+  width: 406px;
+  height: 272px;
+}
+
+.no h1 {
+  padding-left: 30px;
+  color: #F57325;
+  font-size: 60px;
+}
+.no h2 {
+  font-size: 24px;
+  color: black;
+}
+
+.noo h1 {
+  padding-left: 75px;
+  color: #F57325;
+  font-size: 60px;
+}
+.noo h2 {
+  font-size: 24px;
+  color: black;
+}
+
+.yes {
+  margin-top: 100px;
+  background-color: #EBDEF0;
+  padding: 100px 0;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.n1 {
+  margin-right: auto;
+  max-width: 100%;
+  padding-left: 120px;
+  color: white;
+}
+.n1 h1 {
+  font-size: 40px;
+}
+.n1 h1 b {
+  color: #F57325;
+}
+.n1 h2 {
+  max-width: 100%;
+  font-size: 16px;
+  width: 303px;
+}
+
+.mail {
+  max-width: 100%;
+  margin-top: 70px;
+  gap: 34px;
+  display: flex;
+}
+.mail h1 {
+  font-size: 30px;
+}
+.mail a {
+  color: #F57325;
+}
+
+@media screen and (max-width: 400px) {
+  .n1 {
+    padding-left: 0;
+  }
+  .mail h1 {
+    font-size: 20px;
+  }
+}
+.living {
+  color: white;
+}
+.living h5 {
+  font-size: 20px;
+}
+.living h4 {
+  font-size: 16px;
+}
+
+.end {
+  padding-top: 51px;
+  background-color: black;
+  display: flex;
+  gap: 120px;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding-right: 120px;
+}
+
+@media screen and (max-width: 705px) {
+  .end {
+    justify-content: start;
+    gap: 80px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .end {
+    justify-content: start;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .end {
+    justify-content: start;
+    gap: 50px;
+    padding-right: 0;
+  }
+}/*# sourceMappingURL=app2.css.map */
